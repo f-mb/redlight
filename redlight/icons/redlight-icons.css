@@ -1,0 +1,124 @@
+@font-face {
+  font-family: 'redlight';
+  src: url('redlight.eot?16663021');
+  src: url('redlight.eot?16663021#iefix') format('embedded-opentype'),
+       url('redlight.woff?16663021') format('woff'),
+       url('redlight.ttf?16663021') format('truetype'),
+       url('redlight.svg?16663021#redlight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'redlight';
+    src: url('../font/redlight.svg?16663021#redlight') format('svg');
+  }
+}
+*/
+  
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "redlight";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+     
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.icon-eye:before { content: '\e81b'; } /* '' */
+.icon-group:before { content: '\e819'; } /* '' */
+.icon-location:before { content: '\e800'; } /* '' */
+.icon-folder:before { content: '\e82e'; } /* '' */
+.icon-phone:before { content: '\e82f'; } /* '' */
+.icon-dev:before { content: '\e80d'; } /* '' */
+.icon-mic:before { content: '\e80f'; } /* '' */
+.icon-left:before { content: '\e833'; } /* '' */
+.icon-right:before { content: '\e832'; } /* '' */
+.icon-top:before { content: '\e830'; } /* '' */
+.icon-bottom:before { content: '\e831'; } /* '' */
+.icon-award:before { content: '\e810'; } /* '' */
+.icon-shield:before { content: '\e81c'; } /* '' */
+.icon-github:before { content: '\e812'; font-size: 115%; margin: 0; } /* '' */
+.icon-stackoverflow:before { content: '\e838'; } /* '' */
+.icon-flashlight:before { content: '\e824'; } /* '' */
+.icon-user:before { content: '\e813'; } /* '' */
+.icon-users:before { content: '\e814'; } /* '' */
+.icon-info:before { content: '\e829'; } /* '' */
+.icon-home:before { content: '\e82a'; } /* '' */
+.icon-link:before { content: '\e82b'; } /* '' */
+.icon-attach:before { content: '\e82c'; } /* '' */
+.icon-feather:before { content: '\e82d'; } /* '' */
+.icon-vcard:before { content: '\e828'; } /* '' */
+.icon-docs:before { content: '\e825'; } /* '' */
+.icon-blog:before { content: '\e826'; } /* '' */
+.icon-lamp:before { content: '\e815'; } /* '' */
+.icon-palette:before { content: '\e816'; } /* '' */
+.icon-backup:before { content: '\e827'; } /* '' */
+.icon-briefcase:before { content: '\e83b'; } /* '' */
+.icon-academic:before { content: '\e817'; } /* '' */
+.icon-key:before { content: '\e83c'; } /* '' */
+.icon-cc:before { content: '\e83d'; } /* '' */
+.icon-cc-by:before { content: '\e83e'; } /* '' */
+.icon-cc-nc:before { content: '\e83f'; } /* '' */
+.icon-cc-nc-eu:before { content: '\e840'; } /* '' */
+.icon-pencil:before { content: '\e80e'; } /* '' */
+.icon-cc-sa:before { content: '\e842'; } /* '' */
+.icon-cc-nd:before { content: '\e843'; } /* '' */
+.icon-cc-pd:before { content: '\e844'; } /* '' */
+.icon-cc-zero:before { content: '\e845'; } /* '' */
+.icon-cc-share:before { content: '\e846'; } /* '' */
+.icon-cc-remix:before { content: '\e847'; } /* '' */
+.icon-vimeo:before { content: '\e821'; } /* '' */
+.icon-facebook:before { content: '\e822'; } /* '' */
+.icon-gplus:before { content: '\e823'; } /* '' */
+.icon-pinterest:before { content: '\e848'; } /* '' */
+.icon-stumbleupon:before { content: '\e820'; } /* '' */
+.icon-spotify:before { content: '\e81e'; } /* '' */
+.icon-instagram:before { content: '\e849'; } /* '' */
+.icon-behance:before { content: '\e81d'; } /* '' */
+.icon-mail:before { content: '\e84a'; } /* '' */
+.icon-press:before { content: '\e804'; } /* '' */
+.icon-medal:before { content: '\e818'; } /* '' */
+.icon-lock:before { content: '\e84b'; } /* '' */
+.icon-affiliation:before { content: '\e811'; } /* '' */
+.icon-github-light:before { content: '\e84c'; } /* '' */
+.icon-foursquare:before { content: '\e851'; } /* '' */
+.icon-99:before { content: '\e806'; } /* '' */
+.icon-digg:before { content: '\e809'; } /* '' */
+.icon-dribbble:before { content: '\e805'; } /* '' */
+.icon-linkedin:before { content: '\e803'; } /* '' */
+.icon-rss:before { content: '\e807'; } /* '' */
+.icon-skype:before { content: '\e808'; } /* '' */
+.icon-twitter:before { content: '\e801'; } /* '' */
+.icon-email:before { content: '\e802'; } /* '' */
+.icon-cloudapp:before { content: '\e80c'; } /* '' */
+.icon-dropbox:before { content: '\e80b'; } /* '' */
+.icon-git:before { content: '\e850'; } /* '' */
+.icon-tumblr:before { content: '\e80a'; } /* '' */
+.icon-search-circled:before { content: '\e81a'; } /* '' */
+.icon-cc-nc-jp:before { content: '\e841'; } /* '' */

@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+/**
+ * customize.css
+ * RedLight User Customization
+ *
+ * 
+ *
+ * @package		RedLight
+ * @since		0.1
+ * @version		0.2, 2013-10-26
+ * @author		Florian Martin-Bariteau
+ */
+ 
+
+/* Default Font 
+* {
+	font-family: ___FONTS___, sans-serif !important;
+	}
+*/
+	
+/* Font for Headings and Menu 
+h1, h2, h3, h4, header #navmnu a {
+	font-family: ___FONTS___, serif !important;
+	}
+*/
+
+/* Color - Text ON 
+.colored, h1 i, a:hover, section .label.colored {
+	color: ___COLOR___ !important;
+	}
+*/
+	
+/* Color - Background ON 
+header #headbg, section a.label:hover {
+	background-color: ___COLOR___ !important;
+	}
+*/
+
+/* Color - Text color when background is ON
+header #navmnu a, header h1, header h2, section a.label:hover {
+	color: ___COLOR___ !important;
+	}
+*/
+
+/* Color - Border ON 
+footer, section .label.colored {
+	border-color: ___COLOR___ !important;
+	}
+*/

@@ -1,0 +1,389 @@
+@charset "UTF-8";
+
+/**
+ * redlight.css
+ * RedLight Responsive Layout
+ *
+ * @package		RedLight
+ * @subpackage	Theme
+ * @since		0.1
+ * @version		0.2, 2013-10-26
+ * @author		Florian Martin-Bariteau
+ */
+ 
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600|Enriqueta:400,700);
+@import url(icons/redlight-icons.css);
+@import url(../customize.css);
+
+/*------------------------------------------/
+	Reset
+/-----------------------------------------*/
+ 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, ins, kbd, q, s, samp,
+small, strike, strong, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, mark {
+	border: 0;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+	background-color: transparent;
+	vertical-align: baseline;
+	}
+
+img {
+	border: 0;
+	}
+
+/*------------------------------------------/
+	General
+/-----------------------------------------*/
+
+* {
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+body {
+	/*width: 1000px;
+	margin: 0px auto;*/
+	font-size: 14px;
+}
+
+a, a:visited {
+	color: inherit;
+	text-decoration: none;
+	border-bottom: 1px dotted;
+	}
+a:hover {
+	color: #333333;
+	}
+
+.colored {
+	color: #333333;
+	}
+.light {
+	font-weight: 300;
+}
+
+.col {
+	display: table-cell;
+	vertical-align: top;
+	padding-right: 25px;
+}
+.col:last-of-type {
+	padding-right: 0px;
+}
+
+/*------------------------------------------/
+	Header
+/-----------------------------------------*/
+
+header {
+	height: 225px;
+    }
+
+header a {
+	border-bottom: none !important;
+	}
+
+header #headbg {
+	position:fixed;
+	top:0px;
+	height: 200px;
+	width: 100%;
+	background-color: #333333;
+	opacity: 0.9;
+	}
+
+header #head {
+	position:fixed;
+	top:0px;
+	height: 200px;
+	width: 1000px;
+	left: 50%;
+	margin-left: -500px;
+	}
+
+header #navmnu {
+	position: absolute;
+	display: table;
+	bottom: 10px;
+	width: 100%;
+	}
+header #navmnu li {
+	list-style: none;
+	display: table-cell;
+	font-size: 15px;
+	text-align: center;
+	}
+header #navmnu li a i {
+	font-size: 18px;
+	margin-right: 0px;
+	}
+header #navmnu a {
+	font-family: 'Enriqueta', Georgia, serif;
+	display: block;
+	text-decoration: none;
+	color: #FFF;
+	}
+header #navmnu a:hover {
+	text-decoration: none;
+	}
+
+header h1 {
+	font-size: 40px;
+	text-align: center;
+	margin-top: 50px !important;
+	margin-bottom: 0px;
+	color: #FFF;
+	}
+header h2 {
+	font-size: 15px;
+	font-weight: 400;
+	text-align: center;
+	margin: 0px;
+	color: #FFF;
+	}
+
+
+/*------------------------------------------/
+	Sections
+/-----------------------------------------*/
+
+section {
+	width: 725px;
+	margin-bottom: 25px;
+	padding-top: 225px;
+	margin-top: -225px;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+section:first-of-type {
+	padding-top: 275px;
+	}
+
+section nav {
+	bottom: 0;
+	text-align: center;
+	margin-top: 25px;
+	}
+section nav a {
+	display: block;
+	border-bottom: none;
+	}
+section nav a i {
+	font-size: 150%;
+	}
+
+section img {
+	margin-bottom: 25px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	}
+
+#iconmnu {
+	display: block;
+	}
+#iconmnu li {
+	list-style: none;
+	display: inline-block;
+	}
+#iconmnu a {
+	display: block;
+	border: none;
+	font-size: 18px;
+	margin-right: 5px;
+	transition: all .3s;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	-o-transition: all .3s;
+	}
+#iconmnu a:hover {
+	text-decoration: none;
+	}
+
+section p {
+	margin-bottom: 10px;
+	text-align: justify;
+	}
+
+section .headline {
+	font-size: 150%;
+	font-weight: 300;
+	text-align: justify;
+	}
+
+section article {
+	margin-bottom: 25px;
+	}
+section article .aside {
+	float: right;
+	text-align: right;
+	}
+section article .location {
+	font-size: 80%;
+	}
+section article .authors {
+	font-size: 90%;
+	}
+section article .position {
+	font-style: italic;
+	}
+section article .summary {
+	color: #333;
+	margin-left: 50px;
+	font-size: 95%;
+	margin-top: 10px;
+	}
+section article .summary p {
+	margin-bottom: 5px;
+	}
+section .label {
+	background-color: #ccc;
+	color: #FFF;
+	font-size: 85%;
+	padding: 1px 5px 1px 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	}
+section a.label {
+	border: none;
+	}
+section .label.colored {
+	border: solid 1px #333333;
+	color: #333333;
+	background-color: #FFF;
+	font-weight: 300;
+	}
+section a.label:hover {
+	color: #FFF;
+	background-color: #333333;
+	}
+
+/*------------------------------------------/
+	Headings
+/-----------------------------------------*/
+
+h1, h2, h3, h4 {
+	font-family: 'Enriqueta', Georgia, serif;
+	}
+h1:first-child, h2:first-child, h3:first-child, h4:first-child {
+	margin-top: 0px;
+	}
+
+h1 {
+	font-size: 30px;
+	margin-bottom: 25px;
+	}
+h2 {
+	font-size: 25px;
+	margin-top: 25px; margin-bottom: 20px;
+	}
+h3 {
+	font-size: 20px;
+	margin-top: 20px; margin-bottom: 15px;
+	color: #666;
+	}
+h4 {
+	font-size: 20px;
+	font-weight: 400;
+	margin-top: 20px; margin-bottom: 15px;
+	color: #666;
+	}
+
+h1 i {
+	margin-left: -50px;
+	color: #333333;
+	}
+
+/*------------------------------------------/
+	Footer
+/-----------------------------------------*/
+
+
+footer {
+	margin-top: 25px;
+	border-top: 1px solid #333333;
+	padding-top: 25px;
+	margin-bottom: 25px;
+	color: #666;
+	text-align: center;
+	width: 100%;
+	min-width: 750px;
+	}
+
+footer p {
+	width: 1000px;
+	margin: 0px auto;
+	}
+footer p.powered {
+	font-size: 80%;
+	margin-top: 10px;
+	}
+
+/*------------------------------------------/
+	Responsive
+/-----------------------------------------*/
+
+@media screen and (max-width:999px) {
+	header #navmnu li a i {
+		display: block;
+		}
+	header #head {
+		width: 100%;
+		margin: 0;
+		left: 0;
+		min-width: 750px;
+    	}
+	footer p {
+		width: 100%;
+		min-width: 750px;
+		margin: 0;
+		}
+}
+
+@media screen and (max-width:750px) {
+	header #headbg {
+		height: 125px;
+		}
+	header #head {
+		height: 125px;
+		}
+	header h1 {
+		margin-top: 5px !important;
+		font-size: 30px;
+		}
+	header #navmnu {
+		bottom: 5px;
+		}
+	header #navmnu li a {
+    	font-size: 50%;
+		}
+	header #navmnu li a i {
+    	font-size: 30px;
+    	margin-bottom: -5px;
+		}
+	section {
+		padding-top: 150px !important;
+		margin-top: -150px !important;
+		}
+	section:first-of-type {
+		padding-top: 80px !important;
+		}
+	h1 i {
+    	margin: 0;
+		}
+	section {
+		padding-left: 12px; padding-right: 12px;
+		}
+	section .headline {
+		font-size: 200%;
+		}
+}
