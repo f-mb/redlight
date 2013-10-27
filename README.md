@@ -20,6 +20,8 @@ If you add some options, feel free to pull request to the RedLight main repo! (p
 
 #### Installation
 
+*Please, add your website to the list at the end of this file.*
+
 ###### GITHUB PAGES
 
 Fork this repository, rename it to "*your-username*.github.io" (or like you want).
@@ -28,7 +30,7 @@ If you have a personal domain, add a <a href="https://help.github.com/articles/s
 
 ###### SELF-HOSTED
 
-You can <a href="#">download RedLight</a>.
+You can <a href="https://github.com/f-mb/redlight/archive/master.zip">download RedLight</a>.
 
 ###### FILE ARCHITECTURE
 
