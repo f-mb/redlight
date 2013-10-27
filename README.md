@@ -5,13 +5,11 @@ RedLight is a responsive HTML5, CSS3, JQuery framework for simple/static (academ
 
 **Current version:** 0.2 (2013-10-26)
 
-###### LICENCE
+###### LICENSE
 
-This theme is freely available under <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/" target="_blank">Creative Commons BY-NC-SA Licence</a>.
+This theme is freely available under <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/" target="_blank">Creative Commons BY-NC-SA License</a>.
 
-JQuery and icons might have different licences, check them.
-
-If you add some options, feel free to pull request to the RedLight main repo! (please do so!)
+If you add/improve some features, please pull a request!
 
 
 ***
