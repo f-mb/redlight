@@ -1,7 +1,7 @@
 RedLight
 ========
 
-RedLight is a responsive theme using HTML5, CSS3, JS.
+RedLight is a responsive HTML5, CSS3, JQuery framework for simple/static (academic) website.
 
 **Current version:** 0.2 (2013-10-26)
 
