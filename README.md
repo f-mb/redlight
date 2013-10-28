@@ -63,10 +63,7 @@ By default, RedLight use a grey-based layout; but you can customize it.
 
 To do so, create a "customize.css" file (use code in "tpl-customize.css"; uncomment parts you want to customize; do not delete "!important" mentions!).
 
-No other action needed. The "customize.css" will be automatically load by RedLight.
-
-*Recommandation:* Use only one different color, called "On Color" in "tpl-customize.css".
-
+No other action needed. The "customize.css" will be automatically loaded by RedLight.
 
 
 ***
